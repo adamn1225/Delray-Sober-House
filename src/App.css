@@ -1,0 +1,116 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+h1 {
+  font-family: 'Contrail One', cursive;
+}
+p {
+  text-align: justify;
+}
+i {
+  float: right;
+  margin-right: 10%;
+}
+
+a.to-top, a.to-top:visited {
+  color: #F66464;
+}
+
+/******************************************************
+NAVIGATION
+******************************************************/
+nav {
+  background-color: #1B2355;
+}
+
+nav h1, nav a, nav a:visited {
+  color: #E8ECEF;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav h1 {
+  display: inline-block;
+  margin: 20px;
+  font-size: 30px;
+}
+
+nav ul {
+  background-color: #1B2355;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 19vw;
+  font-size: 1rem;
+  margin: 5px auto;
+  border-right: 1px solid #E79294;
+}
+
+nav ul li:first-of-type {
+  margin-left: 2.5vw;
+}
+
+nav ul li:last-of-type {
+  border-right: 0;
+}
+
+article {
+  display: block;
+}
+
+/******************************************************
+HOME
+******************************************************/
+#home {
+  border: 1px solid red;
+  height: 90vh;
+  text-align: center;
+  text-align: center;
+  /* background-image: image("./img/11th_Living_01a.jpg"); */
+  background-size: cover;
+  /* filter: invert(100%);
+  -webkit-filter: invert(100%); */
+}
+
+#home p {
+  text-align: center;
+}
+
+#home header {
+  position: relative;
+  top: 30%;
+  background-color: rgba(160, 204, 227, 0.5);
+  color: #E8ECEF;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b2355+0,1b2355+100&0+0,0.7+16,1+52,0.7+85,0+100 */
+  background: -moz-linear-gradient(left, rgba(27,35,85,0) 0%, rgba(27,35,85,0.7) 16%, rgba(27,35,85,1) 52%, rgba(27,35,85,0.7) 85%, rgba(27,35,85,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(27,35,85,0) 0%,rgba(27,35,85,0.7) 16%,rgba(27,35,85,1) 52%,rgba(27,35,85,0.7) 85%,rgba(27,35,85,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(27,35,85,0) 0%,rgba(27,35,85,0.7) 16%,rgba(27,35,85,1) 52%,rgba(27,35,85,0.7) 85%,rgba(27,35,85,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001b2355', endColorstr='#001b2355',GradientType=1 ); /* IE6-9 */
+  padding: 10px 0;
+}
+
+/******************************************************
+MAIN (#about-me)
+******************************************************/
+#about-me {
+  padding-top: 10px;  /* as opposed to margin-top which doesn't work*/
+  text-align: center;
+}
+#about-me div {
+  margin: 0 10%;
+}
+
+/******************************************************
+Philosophy
+******************************************************/
+
+#home {
+  padding-top: 10px;
+  text-align: center;
+}
